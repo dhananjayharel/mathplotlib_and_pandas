@@ -1,5 +1,5 @@
 import pandas as pd
-import pandas.io.data as web
+import pandas_datareader as web
 import datetime
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -21,11 +21,12 @@ att = web.DataReader("T", 'yahoo', start, end)
 describe = att.describe()
 #print(describe['Open']['std'])
 
-att['50MA'] = pd.rolling_mean(att['Close'], 50)
-att['10MA'] = pd.rolling_mean(att['Close'], 10)
-att['50STD'] = pd.rolling_std(att['Close'], 50)
-att['MA_with_apply'] = pd.rolling_apply(att['Close'], 50, moving_average)
-att['apply'] = pd.rolling_apply(att['Close'], 50, fancy_this)
+
+att['50MA'] = att['Close'].rolling(50).mean()  
+att['10MA'] = att['Close'].rolling(10).mean() 
+att['50STD'] = att['Close'].rolling(50).std()
+att['MA_with_apply'] = att['Close'].rolling(50).apply(moving_average)
+att['apply'] = att['Close'].rolling(50).apply(fancy_this)
 
 print(att.head())
 
@@ -33,23 +34,4 @@ print(att.head())
 
 att.dropna(how='all', inplace=True)
 print(att.head())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

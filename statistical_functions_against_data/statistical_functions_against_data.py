@@ -1,5 +1,5 @@
 import pandas as pd
-import pandas.io.data as web
+import pandas_datareader as web
 import datetime
 
 import matplotlib.pyplot as plt

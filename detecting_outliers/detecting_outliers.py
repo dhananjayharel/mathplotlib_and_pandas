@@ -14,7 +14,8 @@ stats = df.describe()
 print(stats)
 print(stats.Distance_mm['std'])
 
-df['std'] = pd.rolling_std(df['Distance_mm'],2)
+#df['std'] = pd.rolling_std(df['Distance_mm'],2)
+df['std'] = df['Distance_mm'].rolling(2).std()
 
 print(df.head())
 
@@ -24,3 +25,4 @@ print(df.head())
 
 df['Distance_mm'].plot()
 plt.show()
+plt.savefig('plot.png')
