@@ -3,7 +3,7 @@
 "projectname":"detecting_outliers",
 "setdynamicpath":true,
 "reloadwindow":true,
-"showLeftPanel":false,
+"showLeftPanel":true,
 "showRightPanel":false,
 "showOutline":false
 }
