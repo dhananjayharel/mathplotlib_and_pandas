@@ -9,27 +9,21 @@ school = {'Name':['Jeff','Carrol','Kyle','Adrian','Jessica','Scott','Tanner','Ke
 df = pd.DataFrame(school)
 print(df)
 
-df2 = df.sort('Grade')
+df2 = df.sort_values('Grade')
 print(df2)
 
-df2 = df.sort('Age')
+df2 = df.sort_values('Age')
 print(df2)
 
-df2 = df.sort(['Grade','Age'])
+df2 = df.sort_values(['Grade','Age'])
 print(df2)
 
-df2 = df.sort(['Grade','Age','Name'])
+df2 = df.sort_values(['Grade','Age','Name'])
 print(df2)
 
-df2 = df.sort(['Grade','Age','Name'], ascending = False)
+df2 = df.sort_values(['Grade','Age','Name'], ascending = False)
 print(df2)
 
-df2 = df.sort(['Grade','Age','Name'], ascending = [False, True, True])
+df2 = df.sort_values(['Grade','Age','Name'], ascending = [False, True, True])
 print(df2)
-
-
-
-
-
-
 
