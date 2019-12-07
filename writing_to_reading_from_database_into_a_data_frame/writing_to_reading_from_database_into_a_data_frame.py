@@ -8,7 +8,7 @@ def populate_DB():
         with sqlite3.connect('tutorial.db') as conn:
             chunk.to_sql('Bitcoin', conn, if_exists= 'append')
 
-#populate_DB()
+populate_DB()
 
 def pull_from_DB():
     with sqlite3.connect('tutorial.db') as conn:
