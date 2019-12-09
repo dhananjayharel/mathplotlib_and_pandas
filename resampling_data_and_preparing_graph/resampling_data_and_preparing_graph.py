@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-from matplotlib.finance import candlestick_ohlc
+from mpl_finance import candlestick_ohlc
 import matplotlib.dates as mdates
 from matplotlib import style
 
@@ -15,7 +15,7 @@ def populate_DB():
         with sqlite3.connect('tutorial.db') as conn:
             chunk.to_sql('Bitcoin', conn, if_exists= 'append')
 
-#populate_DB()
+populate_DB()
 
 def pull_from_DB():
     with sqlite3.connect('tutorial.db') as conn:
@@ -39,7 +39,4 @@ print(ohlc.head())
 fig = plt.figure()
 ax1 = plt.subplot2grid((1,1), (0,0))
 
-
-            
-            
 

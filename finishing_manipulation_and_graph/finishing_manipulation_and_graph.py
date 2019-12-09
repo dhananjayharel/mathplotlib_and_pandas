@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-from matplotlib.finance import candlestick_ohlc
+from mpl_finance import candlestick_ohlc
 import matplotlib.dates as mdates
 from matplotlib import style
 
@@ -21,7 +21,7 @@ def populate_DB():
         with sqlite3.connect('tutorial.db') as conn:
             chunk.to_sql('Bitcoin', conn, if_exists= 'append')
 
-#populate_DB()
+populate_DB()
 
 def pull_from_DB():
     with sqlite3.connect('tutorial.db') as conn:
@@ -46,8 +46,8 @@ fig = plt.figure()
 ax1 = plt.subplot2grid((1,1), (0,0))
 
 ohlc['candlestick_plot'] = list(map(build_ohlc, ohlc.index, ohlc['open'],ohlc['high'],ohlc['low'],ohlc['close']))
-ohlc['20MA'] = pd.rolling_mean(ohlc['close'], 20)
-ohlc['100MA'] = pd.rolling_mean(ohlc['close'], 100)
+ohlc['20MA'] = ohlc['close'].rolling(20).mean()
+ohlc['100MA'] = ohlc['close'].rolling(100).mean()
 
 print(ohlc.head())
 
@@ -60,9 +60,4 @@ for label in ax1.xaxis.get_ticklabels():
 
 plt.legend(loc=4)
 
-plt.show()
-
-
-            
-            
-
+plt.savefig('plot.png')
