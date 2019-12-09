@@ -1,0 +1,4 @@
+{"mainfile":"cl_pets/spiders/myspider.py",
+"compilemenucommand":"scrapy crawl cl_pets -o css.json",
+"runmenucommand":"scrapy crawl cl_pets -o css.json"
+}

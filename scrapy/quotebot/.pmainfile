@@ -1,0 +1,4 @@
+{"mainfile":"quotebot/spiders/quotecss.py",
+"compilemenucommand":"scrapy crawl toscrape-css -o css.json",
+"runmenucommand":"scrapy crawl toscrape-css -o css.json"
+}
