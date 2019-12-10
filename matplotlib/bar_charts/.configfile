@@ -3,7 +3,7 @@
 "projectname":"bar_charts",
 "setdynamicpath":true,
 "reloadwindow":true,
-"showLeftPanel":false,
+"showLeftPanel":true,
 "showRightPanel":false,
 "showOutline":false
 }
