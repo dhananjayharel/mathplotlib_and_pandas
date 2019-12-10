@@ -11,8 +11,8 @@
 
 BOT_NAME = 'quotebot'
 
-SPIDER_MODULES = ['quotebot.spiders']
-NEWSPIDER_MODULE = 'quotebot.spiders'
+SPIDER_MODULES = ['quotebot_xpath.spiders']
+NEWSPIDER_MODULE = 'quotebot_xpath.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
