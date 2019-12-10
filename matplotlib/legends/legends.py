@@ -14,5 +14,5 @@ plt.title('Epic Graph tutorial for data viz in Python with Matplotlib.\nTutorial
 
 plt.legend()
 
-plt.show()
-
+plt.savefig('plot.png')
+print('Plot saved in `plot.png`. Please click on it to see the graph.')
