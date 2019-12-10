@@ -1,0 +1,4 @@
+{"mainfile":"quotebot_xpath/spiders/quotexpath.py",
+"compilemenucommand":"scrapy crawl toscrape-xpath -o xpath.json",
+"runmenucommand":"scrapy crawl toscrape-xpath -o xpath.json"
+}
