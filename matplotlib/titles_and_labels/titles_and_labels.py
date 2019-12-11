@@ -9,5 +9,6 @@ plt.ylabel('Random #')
 
 plt.title('Epic Graph tutorial for data viz in Python with Matplotlib.\nTutorial showing labels and titles')
 
-plt.show()
-
+#plt.show()
+plt.savefig('plot.png')
+print('plot saved in `plot.png`. Please click on it to view the graph')
