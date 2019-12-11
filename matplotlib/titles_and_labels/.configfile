@@ -3,7 +3,7 @@
 "projectname":"titles_and_labels",
 "setdynamicpath":true,
 "reloadwindow":true,
-"showLeftPanel":false,
+"showLeftPanel":true,
 "showRightPanel":false,
 "showOutline":false
 }
