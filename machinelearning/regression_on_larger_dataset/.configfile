@@ -3,7 +3,7 @@
 "projectname":"regression_on_larger_dataset",
 "setdynamicpath":true,
 "reloadwindow":true,
-"showLeftPanel":false,
+"showLeftPanel":true,
 "showRightPanel":true,
 "showOutline":false
 }
