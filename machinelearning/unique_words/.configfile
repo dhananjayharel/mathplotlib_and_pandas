@@ -4,6 +4,6 @@
 "setdynamicpath":true,
 "reloadwindow":true,
 "showLeftPanel":true,
-"showRightPanel":true,
+"showRightPanel":false,
 "showOutline":false
 }
