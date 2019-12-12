@@ -1,9 +1,9 @@
 {"giturl":"https://github.com/dhananjayharel/mathplotlib_and_pandas",
-"projectpath":"/home/project/mathplotlib_and_pandas/machinelearning/module4",
-"projectname":"module4",
+"projectpath":"/home/project/mathplotlib_and_pandas/machinelearning/data_visualization",
+"projectname":"data_visualization",
 "setdynamicpath":true,
 "reloadwindow":true,
 "showLeftPanel":true,
-"showRightPanel":true,
+"showRightPanel":false,
 "showOutline":false
 }
