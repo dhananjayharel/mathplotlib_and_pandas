@@ -1,9 +1,10 @@
 {"giturl":"https://github.com/dhananjayharel/mathplotlib_and_pandas",
-"projectpath":"/home/project/mathplotlib_and_pandas/machinelearning/iris_clusters",
-"projectname":"iris_clusters",
+"projectpath":"/home/project/mathplotlib_and_pandas/machinelearning/clustering_iris_data",
+"projectname":"clustering_iris_data",
 "setdynamicpath":true,
 "reloadwindow":true,
 "showLeftPanel":true,
-"showRightPanel":true,
+"showRightPanel":false,
 "showOutline":false
 }
+
