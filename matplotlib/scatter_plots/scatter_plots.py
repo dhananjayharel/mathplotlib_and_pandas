@@ -18,6 +18,9 @@ y2 = [8,8,6,7,6]
 plt.scatter(x, y1, marker='o', color='c')
 plt.scatter(x, y2, marker='v', color='m')
 
-plt.show()
+
+#plt.show()
+plt.savefig('plot.png')
+print('Plot saved in `plot.png`. Please click on it to see the graph.')
 
 
