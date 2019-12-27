@@ -28,6 +28,7 @@ ax2.plot(x, y)
 x, y = create_plots()
 ax3.plot(x, y)
 
-
-plt.show()
+#plt.show()
+plt.savefig('plot.png')
+print('Plot saved in `plot.png`. Please click on it to see the graph.')
 
