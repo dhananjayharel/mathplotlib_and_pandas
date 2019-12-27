@@ -15,4 +15,6 @@ ax1.set_xlabel('x axis')
 ax1.set_ylabel('y axis')
 ax1.set_zlabel('z axis')
 
-plt.show()
+#plt.show()
+plt.savefig('plot.png')
+print('Plot saved in `plot.png`. Please click on it to see the graph.')
