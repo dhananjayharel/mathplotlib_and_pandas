@@ -11,4 +11,6 @@ test_scores = [55,45,88,75,43,56,89,98,55,54,65,77,88,81,82,89,92,98,65,76,76,73
 bins = [10,20,30,40,50,60,70,80,90,100]
 plt.hist(test_scores, bins, histtype='bar', rwidth=0.8)
 
-plt.show()
+#plt.show()
+plt.savefig('plot.png')
+print('Plot saved in `plot.png`. Please click on it to see the graph.')
