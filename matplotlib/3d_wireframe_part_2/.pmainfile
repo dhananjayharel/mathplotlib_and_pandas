@@ -1,4 +1,6 @@
 {"mainfile":"3d_wireframe_part_2.py",
 "compilemenucommand":"python3 3d_wireframe_part_2.py",
-"runmenucommand":"python3 3d_wireframe_part_2.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }
