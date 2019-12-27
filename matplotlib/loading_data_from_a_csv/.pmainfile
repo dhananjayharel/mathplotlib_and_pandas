@@ -1,4 +1,6 @@
 {"mainfile":"loading_data_from_a_csv.py",
 "compilemenucommand":"python3 loading_data_from_a_csv.py",
-"runmenucommand":"python3 loading_data_from_a_csv.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }

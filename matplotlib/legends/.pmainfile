@@ -1,4 +1,6 @@
 {"mainfile":"legends.py",
 "compilemenucommand":"python3 legends.py",
-"runmenucommand":"python3 legends.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }

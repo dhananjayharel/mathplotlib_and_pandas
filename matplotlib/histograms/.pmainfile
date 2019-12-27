@@ -1,4 +1,6 @@
 {"mainfile":"histograms.py",
 "compilemenucommand":"python3 histograms.py",
-"runmenucommand":"python3 histograms.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }
