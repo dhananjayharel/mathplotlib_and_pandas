@@ -1,4 +1,6 @@
 {"mainfile":"basic_subplots.py",
 "compilemenucommand":"python3 basic_subplots.py",
-"runmenucommand":"python3 basic_subplots.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }
