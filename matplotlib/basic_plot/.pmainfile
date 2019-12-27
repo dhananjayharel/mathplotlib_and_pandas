@@ -1,0 +1,6 @@
+{"mainfile":"basic_plot.py",
+"compilemenucommand":"python3 basic_plot.py",
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
+}
