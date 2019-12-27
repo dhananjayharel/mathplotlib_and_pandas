@@ -1,4 +1,6 @@
 {"mainfile":"basic_basemap_graph.py",
 "compilemenucommand":"python3 basic_basemap_graph.py",
-"runmenucommand":"python3 basic_basemap_graph.py"
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
+"outputtype":"graph",
+"graphfile":"plot.png"
 }
