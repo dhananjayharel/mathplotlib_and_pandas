@@ -1,6 +1,6 @@
 {"mainfile":"titles_and_labels.py",
 "compilemenucommand":"python3 titles_and_labels.py",
-"runmenucommand":"sh ./runfile.sh > .outputurl",
+"runmenucommand":"sh ./.runfile.sh > .outputurl",
 "outputtype":"graph",
 "graphfile":"plot.png"
 }
