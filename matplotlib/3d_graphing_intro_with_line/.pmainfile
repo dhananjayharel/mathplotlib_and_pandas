@@ -2,5 +2,6 @@
 "compilemenucommand":"python3 3d_graphing_intro_with_line.py",
 "runmenucommand":"sh ./.runfile.sh > .outputurl",
 "outputtype":"graph",
-"graphfile":"plot.png"
+"graphfile":"plot.png",
+"viewtype":"file"
 }

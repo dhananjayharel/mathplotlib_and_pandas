@@ -2,5 +2,6 @@
 "compilemenucommand":"python3 loading_data_with_numpy.py",
 "runmenucommand":"sh ./.runfile.sh > .outputurl",
 "outputtype":"graph",
-"graphfile":"plot.png"
+"graphfile":"plot.png",
+"viewtype":"file"
 }

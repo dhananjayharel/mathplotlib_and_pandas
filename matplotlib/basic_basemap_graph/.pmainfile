@@ -2,5 +2,6 @@
 "compilemenucommand":"python3 basic_basemap_graph.py",
 "runmenucommand":"sh ./.runfile.sh > .outputurl",
 "outputtype":"graph",
-"graphfile":"plot.png"
+"graphfile":"plot.png",
+"viewtype":"file"
 }
